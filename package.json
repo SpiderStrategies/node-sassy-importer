@@ -1,6 +1,6 @@
 {
   "name": "node-sassy-importer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find sass imports in node_modules ",
   "main": "index.js",
   "bin": {
