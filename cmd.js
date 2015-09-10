@@ -9,7 +9,6 @@ if (!process.argv[2]) {
   return
 }
 
-console.log(process.argv[2])
 sass.render({
   file: process.argv[2],
   importer: function (url, file, done) {
