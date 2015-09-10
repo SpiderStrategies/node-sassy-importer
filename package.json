@@ -1,0 +1,28 @@
+{
+  "name": "node-sassy-importer",
+  "version": "1.0.0",
+  "description": "Find sass imports in node_modules ",
+  "main": "index.js",
+  "bin": {
+    "sass-import": "./cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpiderStrategies/node-sassy-importer.git"
+  },
+  "keywords": [
+    "sass",
+    "node-sass",
+    "sass-imports",
+    "sassy"
+  ],
+  "author": "Nathan Bowser <nathan@spiderstrategies.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiderStrategies/node-sassy-importer/issues"
+  },
+  "homepage": "https://github.com/SpiderStrategies/node-sassy-importer",
+  "dependencies": {
+    "node-sass": "^3.3.2"
+  }
+}
