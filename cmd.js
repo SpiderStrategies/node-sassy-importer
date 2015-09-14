@@ -19,7 +19,7 @@ sass.render({
     }
 
     try {
-      var np = path.relative('./', require.resolve(url.replace('~', '')))
+      var np = path.relative('./', require.resolve(url))
       found[url] = np
       return done({file: np })
     } catch (e) {
